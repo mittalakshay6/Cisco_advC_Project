@@ -1,0 +1,13 @@
+Below are the system requirements for compiling and executing the program.
+
+a. A 32 BIT linux box with >= 1 GB memory
+b. The system should have GCC and standard C libraries installed
+
+1. To compile the program, use command 'make all' which should generate the required executable binaries driver, genb (to generate birds.bin), geno (to generate observations.bin)
+2. After the binaries are compiled, execute the binaries by staying in the same directory as the binaries. The order of execution is as follows.
+
+a. Execute genb binary first to generate birds.bin file.
+b. Execute geno binary to generate observations.bin file.
+c. Finally, execute driver binary to execute the program.
+
+Note: The binaries discussed above (birds.bin and observations.bin) should reside in the same directory as of the driver.
